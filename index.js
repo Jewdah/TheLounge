@@ -18,21 +18,6 @@ app.get("/Italiano", function (req, res) {
     res.send("Ciao mondo")
    })
 
-app.get("/Brazilian", function (req, res) {
-    res.send("Olá mundo")
-   })
-
-app.get("/Polaco", function (req, res) {
-    res.send("Witaj świecie")
-   })
-
-app.get("/Noruego", function (req, res) {
-    res.send("Hei Verden")
-   })
-
-app.get("/Aleman", function (req, res) {
-    res.send("Hallo Welt")
-   })
 
 
 app.post('/', urlencodedParser, function (req, res) {
