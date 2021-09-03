@@ -6,7 +6,7 @@ var jsonParser = bodyParser.json()
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.post('/', urlencodedParser, function (req, res) {
-    console.log(req.body.id)
+    console.log(req.body.Colombia)
     res.end()
   })
 
