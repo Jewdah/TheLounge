@@ -15,6 +15,10 @@ app.get("/4", function (req, res) {
    app.get("/5", function (req, res) {
     res.send("Cinco Get ")
    })
+   app.get("/6", function (req, res) {
+    res.send("Seis Get ")
+   })
+
 
  
 app.listen(3000)
