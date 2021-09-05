@@ -1,15 +1,22 @@
 const express = require("express")
 const app = express()
 app.get("/", function (req, res) {
- res.send("Hello World")
+ res.send("Primer GET")
 })
-app.get("/Spanish", function (req, res) {
-    res.send("Hola mundo")
+app.get("/2", function (req, res) {
+    res.send("Segundo GET")
    })
-app.get("/Italiano", function (req, res) {
-    res.send("Ciao mondo")
+app.get("/3", function (req, res) {
+    res.send("Tercer Get")
    })
-app.get("/Brazilian", function (req, res) {
-    res.send("Ciao mondo")
+app.get("/4", function (req, res) {
+    res.send("Cuarto Get ")
    })
+   app.get("/5", function (req, res) {
+    res.send("Cinco Get ")
+   })
+
+ 
 app.listen(3000)
+
+
