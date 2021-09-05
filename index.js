@@ -7,7 +7,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 
 app.get("/", function (req, res) {
- res.send("Esta es la pagina Principal, FUNCIONA¡¡¡¡")
+ res.send("Esta es la pagina Principal, FUNCIONA¡¡¡¡¡")
 })
 
 app.get("/Spanish", function (req, res) {
